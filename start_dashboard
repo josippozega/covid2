@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd covid-19-data
+git pull origin master
+cd ..
+streamlit run co_dash.py
