@@ -43,9 +43,9 @@ elif nav_link == "US Trends":
     draw_daily_cases_graph(covid_data)
     draw_daily_deaths_graph(covid_data)
 
-elif nav_link == "Local Trends":
-    cov_coord = get_coord(covid_data)
-    st.header("Local Trends")
+#elif nav_link == "Local Trends":
+  #  cov_coord = get_coord(covid_data)
+  #  st.header("Local Trends")
 
     state_key = get_state_key(cov_coord)
     # state_key = insert(state_key, 0, "All")
